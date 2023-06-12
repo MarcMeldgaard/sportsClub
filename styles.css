@@ -1,0 +1,154 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #3F2E56;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row wrap;
+    align-content: center;
+    justify-content: end;
+    list-style: none;
+    align-items: center;
+}
+
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/marcmeldgaard/Documents/CODE/Sportsclub.html/ressources/images/joris-berthelot-EnTU_hr9wPA-unsplash.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: black;    
+}
+
+.hero h2 {
+    font-size: 1.2rem;
+    color: black;
+    font-style: italic;
+    font-weight: 400;    
+}
+
+.herotext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    width: 100%;
+}
+
+.om-os {
+    text-align: center;
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.test {
+    background-color: sandybrown;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.test h3 {
+    padding-left: 1em;
+}
+
+.ture {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex: 1;
+    flex-flow: column wrap;
+    flex-direction: row;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    color: black;
+    border-radius: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: 0 2px 15px 1px lightslategray;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    color: black;
+    cursor: pointer;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card h3 {
+    font-weight: 700;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.card p {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+
+}
+.card h4 {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+
+}
